@@ -1,11 +1,9 @@
-import { useState } from 'react'
-import './App.css'
 
 function App() {
 
   return (
    <div>
-    <h1>Start</h1>
+    <h1 className="text-3xl font-bold underline">Start</h1>
    </div>
   )
 }
