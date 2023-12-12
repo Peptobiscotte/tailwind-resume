@@ -1,9 +1,10 @@
+import Hero from "./assets/Hero"
 
 function App() {
 
   return (
    <div>
-    <h1 className="text-3xl font-bold underline">Start</h1>
+    <Hero/>
    </div>
   )
 }
