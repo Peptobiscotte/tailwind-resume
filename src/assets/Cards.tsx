@@ -2,7 +2,7 @@ function Cards() {
 
     return (
         <div className="grid grid-cols-3 grid-rows-3 gap-8 m-8 text-lg">
-            <div className="bg-green-400 col-span-1 row-span-1 rounded p-5">
+            <div className="bg-green-400 col-span-1 row-span-1 rounded p-5 transition ease-in-out duration-500 hover:scale-105">
                 <h2 className="text-3xl font-bold text-white mb-2">Code Projects</h2>
                 <ul className="pl-6 underline underline-offset-4">
                     <li><a href="https://github.com/Peptobiscotte/react-tenzies">React-tenzies</a></li>
@@ -14,7 +14,7 @@ function Cards() {
                     <li><a href="https://github.com/Peptobiscotte/js-course">JS Course</a></li>
                 </ul>
             </div>
-            <div className="bg-cyan-400 col-span-1 row-span-2 rounded p-5">
+            <div className="bg-cyan-400 col-span-1 row-span-2 rounded p-5 transition ease-in-out duration-500 hover:scale-105">
                 <h2 className="text-3xl font-bold text-white">Expérience Professionelle</h2>
                 <h3 className="text-xl text-white mb-2">2014 - 2023</h3>
                 <div>
@@ -34,7 +34,7 @@ function Cards() {
                     <h4 className="mb-2">Facteur en CDD <a href="https://www.laposte.fr/" className="underline underline-offset-4">@La Poste</a></h4>
                 </div>
             </div>
-            <div className="bg-indigo-400 col-span-1 row-span-3 rounded p-5">
+            <div className="bg-indigo-400 col-span-1 row-span-3 rounded p-5 transition ease-in-out duration-500 hover:scale-105">
                 <h2 className="text-3xl font-bold text-white">Éducation</h2>
                 <h3 className="text-xl text-white mb-2">2013 - 2023</h3>
                 <div>
@@ -63,7 +63,7 @@ function Cards() {
                     </ul>
                 </div>
             </div>
-            <div className="bg-purple-300 col-span-1 row-span-1 rounded p-5">
+            <div className="bg-purple-300 col-span-1 row-span-1 rounded p-5 transition ease-in-out duration-500 hover:scale-105">
                 <h2 className="text-3xl font-bold text-white mb-2">Stack</h2>
                 <ul className="list-disc pl-8">
                     <li>HTML / CSS</li>
@@ -73,7 +73,7 @@ function Cards() {
                     <li>React</li>
                 </ul>
             </div>
-            <div className="bg-amber-300 col-span-2 row-span-1 rounded p-5">
+            <div className="bg-amber-300 col-span-2 row-span-1 rounded p-5 transition ease-in-out duration-500 hover:scale-105">
                 <h2 className="text-3xl font-bold text-white mb-10">Intérêts</h2>
                 <ul className="list-disc pl-8">
                     <li>🔪J'adore la cuisine. Je me documente souvent, pour avoir de l'inspiration, améliorer ma technique.</li>
