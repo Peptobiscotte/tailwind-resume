@@ -18,20 +18,20 @@ function Cards() {
                 <h2 className="text-3xl font-bold text-white">Expérience Professionelle</h2>
                 <h3 className="text-xl text-white mb-2">2014 - 2023</h3>
                 <div>
-                    <h4 className="mb-2">Pianiste <a href="https://www.facebook.com/LeBscuit/?locale=fr_FR">@Le Biscuit</a></h4>
+                    <h4 className="mb-2">Pianiste <a href="https://www.facebook.com/LeBscuit/?locale=fr_FR" className="underline underline-offset-4">@Le Biscuit</a></h4>
                     <ul className="list-disc mb-2 pl-8">
                         <li>Pratique du piano: Concerts, résidences, répétitions.</li>
                     </ul>
                 </div>
                 <div>
-                    <h4 className="mb-2">Pianiste/Compositeur <a href="https://web.archive.org/web/20220418135427/https://spacedukes.com/">@Space Dukes</a></h4>
+                    <h4 className="mb-2">Pianiste/Compositeur <a href="https://web.archive.org/web/20220418135427/https://spacedukes.com/" className="underline underline-offset-4">@Space Dukes</a></h4>
                     <ul className="list-disc mb-2 pl-8">
                         <li>Pratique du piano Concerts, composition, résidences, répétitions.</li>
                         <li>Organisation des concerts Démarchage des salles, communication, logistique.</li>
                     </ul>
                 </div>
                 <div>
-                    <h4 className="mb-2">Facteur en CDD <a href="https://www.laposte.fr/">@La Poste</a></h4>
+                    <h4 className="mb-2">Facteur en CDD <a href="https://www.laposte.fr/" className="underline underline-offset-4">@La Poste</a></h4>
                 </div>
             </div>
             <div className="bg-indigo-400 col-span-1 row-span-3 rounded p-5">
@@ -45,19 +45,19 @@ function Cards() {
                     </ul>
                 </div>
                 <div>
-                    <h4 className="mb-2">Piano <a href="https://conservatoires.paris.fr/conservatoires/debussy">@Conservatoire Claude Debussy</a></h4>
+                    <h4 className="mb-2">Piano <a href="https://conservatoires.paris.fr/conservatoires/debussy" className="underline underline-offset-4">@Conservatoire Claude Debussy</a></h4>
                     <ul className="list-disc mb-2 pl-8">
                         <li>Formation de pianiste professionnel en 3 ans.</li>
                     </ul>
                 </div>
                 <div>
-                    <h4 className="mb-2">Piano <a href="https://conservatoires.paris.fr/conservatoires/debussy">@Cim - École de Jazz</a></h4>
+                    <h4 className="mb-2">Piano <a href="https://conservatoires.paris.fr/conservatoires/debussy" className="underline underline-offset-4">@Cim - École de Jazz</a></h4>
                     <ul className="list-disc mb-2 pl-8"> 
                         <li>Pratique de l'instrument, musicologie, démarchage.</li>
                     </ul>
                 </div>
                 <div>
-                    <h4>Baccalauréat <a href="http://dev.lyceedarsonval.fr/">@Lycée D'Arsonval</a></h4>
+                    <h4>Baccalauréat <a href="http://dev.lyceedarsonval.fr/" className="underline underline-offset-4">@Lycée D'Arsonval</a></h4>
                     <ul className="list-disc mb-2 pl-8">
                         <li>Filière L option théâtre Mention Bien.</li>
                     </ul>
