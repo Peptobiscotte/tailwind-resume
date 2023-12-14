@@ -6,9 +6,9 @@ function Hero() {
 
     return (
      <div>
-        <div className="p-8 flex justify-between">
+        <div className="p-8 md:flex justify-between">
             <div>
-                <img src={idPic} alt="profile" className="rounded-full h-48 ml-10"/>
+                <img src={idPic} alt="profile" className="hidden md:block rounded-full h-48 ml-10"/>
             </div>
             <div className="flex flex-col justify-center">
                 <h1 className="text-5xl font-bold text-center">Maxime Monnier</h1>
