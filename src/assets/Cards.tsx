@@ -71,6 +71,8 @@ function Cards() {
                     <li>npm</li>
                     <li>git</li>
                     <li>React</li>
+                    <li>Vite</li>
+                    <li>Tailwindcss</li>
                 </ul>
             </div>
             <div className="mb-8 md:mb-0 bg-amber-300 col-span-2 row-span-1 rounded p-5 transition ease-in-out duration-500 hover:scale-105 hover:shadow-lg">
