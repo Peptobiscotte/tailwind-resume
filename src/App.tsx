@@ -5,7 +5,7 @@ import Footer from "./assets/Footer"
 function App() {
 
   return (
-   <div>
+   <div className="dark:bg-zinc-800">
     <Hero/>
     <Cards/>
     <Footer/>

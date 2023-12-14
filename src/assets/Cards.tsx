@@ -4,14 +4,14 @@ function Cards() {
         <div className="md:grid grid-cols-3 grid-rows-3 gap-8 m-8 text-lg">
             <div className="mb-8 md:mb-0 bg-green-400 col-span-1 row-span-1 rounded p-5 transition ease-in-out duration-500 hover:scale-105 hover:shadow-lg">
                 <h2 className="text-3xl font-bold text-white mb-2">Code Projects</h2>
-                <ul className="pl-6 underline underline-offset-4">
-                    <li><a href="https://github.com/Peptobiscotte/react-tenzies">React-tenzies</a></li>
-                    <li><a href="https://github.com/Peptobiscotte/react-meme">React-meme</a></li>
-                    <li><a href="https://github.com/Peptobiscotte/react-airbnb-clone">React-airbnb-clone</a></li>
-                    <li><a href="https://github.com/Peptobiscotte/react-static">React-static</a></li>
-                    <li><a href="https://github.com/Peptobiscotte/devinombre">Devinombre</a></li>
-                    <li><a href="https://github.com/Peptobiscotte/Peptobiscotte.github.io">Curriculum Vitae</a></li>
-                    <li><a href="https://github.com/Peptobiscotte/js-course">JS Course</a></li>
+                <ul className="pl-6">
+                    <li><a href="https://github.com/Peptobiscotte/react-tenzies" className="hover:underline underline-offset-4">React-tenzies</a></li>
+                    <li><a href="https://github.com/Peptobiscotte/react-meme" className="hover:underline underline-offset-4">React-meme</a></li>
+                    <li><a href="https://github.com/Peptobiscotte/react-airbnb-clone" className="hover:underline underline-offset-4">React-airbnb-clone</a></li>
+                    <li><a href="https://github.com/Peptobiscotte/react-static" className="hover:underline underline-offset-4">React-static</a></li>
+                    <li><a href="https://github.com/Peptobiscotte/devinombre" className="hover:underline underline-offset-4">Devinombre</a></li>
+                    <li><a href="https://github.com/Peptobiscotte/Peptobiscotte.github.io" className="hover:underline underline-offset-4">Curriculum Vitae</a></li>
+                    <li><a href="https://github.com/Peptobiscotte/js-course" className="hover:underline underline-offset-4">JS Course</a></li>
                 </ul>
             </div>
             <div className="mb-8 md:mb-0 bg-cyan-400 col-span-1 row-span-2 rounded p-5 transition ease-in-out duration-500 hover:scale-105 hover:shadow-lg">
