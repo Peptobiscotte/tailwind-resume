@@ -1,32 +1,33 @@
 import idPic from "./idPic.png"
-import gitHub from "./gitHub.svg"
-import linkedIn from "./linkedIn.svg"
-import gitHubWhite from "./github-white.svg"
-import linkedInWhite from "./linkedin-white.svg"
+import gitHub from "./SVG/GithubLogo.svg"
+import linkedIn from "./SVG/LinkedinLogo.svg"
+import enveloppe from "./SVG/EnvelopeSimple.svg"
+import phone from "./SVG/Phone.svg"
+import mapPin from "./SVG/MapPin.svg"
 
 function Hero() {
 
     return (
-     <div className="dark:text-white">
-        <div className="p-8 md:flex justify-between">
+     <div className="font-customG">
+        <div className="p-20 md:flex justify-between">
+            <div className="flex gap-8">
             <div>
-                <img src={idPic} alt="profile" className="hidden md:block rounded-full h-48 ml-10"/>
+                <img src={idPic} alt="profile" className="hidden xl:block rounded-full h-40 border-2 border-colortext"/>
             </div>
-            <div className="flex flex-col justify-center">
-                <h1 className="text-5xl font-bold text-center font-mono">Maxime Monnier</h1>
-                <h2 className="text-xl text-center">Pianiste/Compositeur professionnel</h2>
-                <h2 className="text-xl text-center">en reconversion dans le développement web. </h2>
-            </div>
-            <div className="flex flex-col items-end pt-4">
-                <a href="mailto:maxime.monnier@ik.me" className="text-blue-600 dark:text-blue-400">maxime.monnier@ik.me</a>
-                <a href="tel:06-65-25-86-24" className="text-blue-600 dark:text-blue-400">06.65.25.86.24</a>
-                <p>Vincennes</p>
+            <div className="flex flex-col gap-2 justify-center">
+                <h1 className="text-4xl">Maxime Monnier</h1>
+                <h2 className="text-2xl font-customGR">Recherche d'une alternance en Développement Web</h2>
                 <div className="flex gap-2 mt-1">
-                    <a href="https://github.com/Peptobiscotte"><img src={gitHub} alt="gitHub" className="h-8 dark:hidden"/></a>
-                    <a href="https://www.linkedin.com/in/maxime-monnier-09ba00280/"><img src={linkedIn} alt="linkedIn" className="h-8 dark:hidden"/></a>
-                    <a href="https://github.com/Peptobiscotte"><img src={gitHubWhite} alt="gitHub" className="h-8 hidden dark:block"/></a>
-                    <a href="https://www.linkedin.com/in/maxime-monnier-09ba00280/"><img src={linkedInWhite} alt="linkedIn" className="h-8 hidden dark:block"/></a>
+                    <a href="https://www.linkedin.com/in/maxime-monnier-09ba00280/"><img src={linkedIn} alt="linkedIn" className="h-10"/></a>
+                    <a href="https://github.com/Peptobiscotte"><img src={gitHub} alt="gitHub" className="h-10"/></a>
                 </div>
+            </div>
+            </div>
+            <div className="flex flex-col items-start pt-4 gap-4 text-2xl font-customGR">
+                <a href="mailto:maxime.monnier@ik.me" className="text-blue-600 dark:text-blue-400 underline"><img src={enveloppe} alt="" className="hidden sm:inline pr-2"/>maxime.monnier@ik.me</a>
+                <a href="tel:06-65-25-86-24" className="text-blue-600 dark:text-blue-400 underline"><img src={phone} alt="" className="hidden sm:inline pr-2"/>06.65.25.86.24</a>
+                <p><img src={mapPin} alt="" className="inline pr-2"/>Vincennes</p>
+                
             </div>
         </div>
      </div>

@@ -1,14 +1,13 @@
 import Hero from "./assets/Hero"
 import Cards from "./assets/Cards"
-import Footer from "./assets/Footer"
+
 
 function App() {
 
   return (
-   <div className="dark:bg-zinc-800">
+   <div className="bg-gradient-to-br from-colorbg1 to-colorbg2 text-colortext font-general">
     <Hero/>
     <Cards/>
-    <Footer/>
    </div>
   )
 }
